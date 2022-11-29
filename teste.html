@@ -10,9 +10,13 @@
     <h1>Esté é o primeiro teste</h1>
     <script>
         alert("Hello world!");
-        for (var i=0; i < 10; i++ ){
-            document.write("Olá Mundo<br>");
+        function pulaLinha(n){
+            for (var i=0; i < n; i++ ){
+            document.write("<br>");
+            }
         }
+        pulaLinha(3)
+        document.write("Olá mundo");
     </script>
 </body>
 </html>
