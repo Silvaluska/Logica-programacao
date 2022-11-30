@@ -9,14 +9,10 @@
 <body>
     <h1>Esté é o primeiro teste</h1>
     <script>
-        alert("Hello world!");
-        function pulaLinha(n){
-            for (var i=0; i < n; i++ ){
-            document.write("<br>");
-            }
-        }
-        pulaLinha(3)
-        document.write("Olá mundo");
+        var peso = prompt('Qual o seu peso? (Kg)')
+        var altura = prompt('Qual sua altura? (m)')
+        var imc = peso/(altura**2)
+        alert("Seu imc é " + imc)
     </script>
 </body>
 </html>
